@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-image: url("images/BackGround.png");
+    height: 60vh;
+}
+
+.navbar > ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+
+.navbar > ul > li{
+    margin-top: 10px;
+}
+
+.navbar > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar > ul > li > a:hover{
+    opacity: 0.9;
+    text-decoration: underline;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+}
+h1{
+    font-size: 4rem;
+}
+.description{
+   margin:15px 0px;
+   font-size: 1.4rem
+}
+
+.searchbar{
+    display: flex;
+}
+
+.searchbar > input{
+    width: 34vw;
+    height: 34px;
+}
+
+.logo{
+    width: 35px;
+}
+
+.getapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.getapp > div{
+    width: 21vw;
+    background-color: rgba(148, 129, 129, 0.507);
+    margin: 20px 20px 0px 0px;
+    border-radius: 5px;
+}
+
+.getapp > div > img{
+    margin-top: 20px;
+    display:flex;
+    width: 220px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.getapp > div > p{
+    padding: 5px;
+}
+
+.getapp > div:hover{
+    box-shadow: 0px 4px 8px 0px black;
+    transition: ease-out;
+}
+
+.phone{
+    margin-top: 20px;
+    background-color: rgb(255, 232, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.iphone > img{
+    width: 400px;
+    height: auto;
+}
+
+
+.information{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.search > input{
+    width: 20vw;
+    padding: 5px;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.search > button{
+    padding: 8px;
+    background-color: rgb(245, 93, 119);
+    border-radius: 5px;
+    border: none;
+}
+
+.search > button:hover{
+    opacity: 0.8;
+}
+
+.images > img{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.images > img:hover{
+    box-shadow: 0 4px 5px 0px black;
+    border-radius: 10px;
+}
+
+.three{
+    background-color: rgb(226, 204, 174);
+    display: flex;
+    flex-direction: row;
+}
+.three > h1{
+    color: rgb(88, 79, 79);
+}
+.three > div{
+   margin: 100px 0px 0px 0px;
+   padding: 10px;
+}
+
+.three > div > ul{
+    list-style-type: none;
+}
+
+.three > div > ul > li{
+    padding: 10px;
+}
+
+.social > ul > li{
+    font-size: 1.2rem;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(102, 100, 95);
+    padding: 20px;
+}
+
+.note > p > a{
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+
+.note > p > a:hover{
+    text-decoration: underline;
+    color: white;
+}

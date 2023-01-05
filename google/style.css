@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://missoulaartmuseum.org/featured/contemporary-american-indian-artSep1604.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav ul,.layer ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li,.layer ul li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li a,.layer ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1rem;
+    color: rgb(226, 216, 216);
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+footer > div{
+    display: flex;
+    padding: 10px;
+}
+
+.layeritem{
+    color: whitesmoke  !important;
+}
+
+#logo{
+    letter-spacing: 14px;
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-size: 2.4rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    font-size: 1.2em;
+    border-radius: 20px;
+    width: 100%;
+    padding: 13px;
+    border: none;
+    background-color: rgb(233, 230, 230);
+}
+
+.addshortcut > i {
+    margin-top: 10px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.addshortcut:hover{
+    opacity: 0.9;
+}

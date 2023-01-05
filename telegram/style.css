@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Geneva, Verdana, sans-serif';
+    box-sizing: border-box;
+}
+
+header{
+    height: 30vh;
+    background-image: url('telegram.jpg');
+    background-size: contain;
+}
+
+section{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(5, 10, 17);
+}
+
+h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+}
+
+p{
+    margin-top: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(179, 177, 177);
+}
+
+.divbutton{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+button{
+    margin-top: 40px;
+    font-size: 1.3rem;
+    padding: 10px 45px 10px 45px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: rgba(28, 134, 196, 0.89);
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
